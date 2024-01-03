@@ -48,11 +48,11 @@
     }
 </style>
 
-
+<!-- 
 <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
     <div class="container " data-aos="fade-in">
         <div class="d-flex align-items-center justify-content-end">
-            <!-- <div class="order-2">
+            <div class="order-2">
                 <?php
                 $mobile = detectar_dispositivo();
 
@@ -62,10 +62,10 @@
                     echo '<img src="assets/img/logo3.png" class="imagem-logo-hero" alt="">';
                 }
                 ?>
-            </div> -->
+            </div> 
         </div>
     </div>
-</section>
+</section> -->
 
 
 
