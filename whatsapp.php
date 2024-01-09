@@ -59,8 +59,8 @@
     </div>
 
     <script>
-        var zap_telefone = "+5531998964792";
-        var zap_mensagem = 'Olá!! Antonio';
+        var zap_telefone = "+5531994491565";
+        var zap_mensagem = 'Olá!!';
         var zap_exibirPulsar = true;
         var zap_apresentarContato = false;
 

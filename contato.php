@@ -23,7 +23,7 @@
                 <div class="info-box">
                     <i class="bx bx-map"></i>
                     <h3>Nosso Endereço</h3>
-                    <p>Rua Oitenta e Cinco, 775  Tropical - Contagem/MG 32070-010</p>
+                    <p>Rua Oitenta e Cinco, 775 Tropical - Contagem/MG 32070-010</p>
                 </div>
             </div>
 
@@ -31,7 +31,7 @@
                 <div class="info-box" style="padding: 40px;">
                     <i class="bx bx-envelope"></i>
                     <h3>Email</h3>
-                    <a href="mailto:comercial@arctransporte.com.br"></a>
+                    <a href="mailto:comercial@arctransporte.com.br">comercial@arctransporte.com.br</a>
 
 
                 </div>

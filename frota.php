@@ -40,8 +40,8 @@
 
 
     .swiperFrota {
-        width: 100%;
-        height: 100%;
+        width: 80%;
+        height: 80%;
     }
 
 
@@ -54,6 +54,12 @@
 
     .fronta-box {
         height: 600px;
+    }
+
+    .frontabg {
+        background-image: url("assets/img/svg/frota.png");
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     @media only screen and (max-width: 600px) {
@@ -93,35 +99,34 @@
 </style>
 
 <body>
-    <div class="container" id="portfolio">
-        <div class="section-title" data-aos="fade-up">
-            <h2>Frotas</h2>
+    <div class="servicesbg">
+        <div class="container " id="portfolio">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Frotas</h2>
 
 
+            </div>
+            <div class="fronta-box">
+                <div class="swiper mySwiper swiperFrota">
+                    <div class="swiper-wrapper">
 
-
-
-        </div>
-        <div class="fronta-box">
-            <div class="swiper mySwiper swiperFrota">
-                <div class="swiper-wrapper">
-
-                    <?php
-                    $caminho_pasta = 'assets/img/frota';
-                    $arquivos = scandir($caminho_pasta);
-                    foreach ($arquivos as $arquivo) {
-                        $extensoes_permitidas = ['jpg', 'jpeg', 'png', 'gif'];
-                        $extensao = pathinfo($arquivo, PATHINFO_EXTENSION);
-                        if (in_array(strtolower($extensao), $extensoes_permitidas)) {
-                            echo '<div class="swiper-slide swiperSlideFrota">';
-                            echo '<img class="frota-imagem-slide" src="' . $caminho_pasta . '/' . $arquivo . '" />';
-                            echo '</div>';
+                        <?php
+                        $caminho_pasta = 'assets/img/frota';
+                        $arquivos = scandir($caminho_pasta);
+                        foreach ($arquivos as $arquivo) {
+                            $extensoes_permitidas = ['jpg', 'jpeg', 'png', 'gif'];
+                            $extensao = pathinfo($arquivo, PATHINFO_EXTENSION);
+                            if (in_array(strtolower($extensao), $extensoes_permitidas)) {
+                                echo '<div class="swiper-slide swiperSlideFrota">';
+                                echo '<img class="frota-imagem-slide" src="' . $caminho_pasta . '/' . $arquivo . '" />';
+                                echo '</div>';
+                            }
                         }
-                    }
-                    ?>
-                </div>
-                <div class="swiper-pagination"></div>
+                        ?>
+                    </div>
+                    <div class="swiper-pagination"></div>
 
+                </div>
             </div>
         </div>
     </div>

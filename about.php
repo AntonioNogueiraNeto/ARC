@@ -1,5 +1,15 @@
+      <style>
+
+.sectionabout{
+    background-image: url("assets/img/svg/about.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+      </style>
+      
+      
       <!-- ======= About Section ======= -->
-      <section id="about" class="about section-bg">
+      <section id="about" class="about sectionabout">
           <div class="container">
               <div class="row">
                   <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch position-relative" data-aos="fade-right">

@@ -27,7 +27,7 @@
                       </div>
 
                       <div class="parceiria" data-aos="fade-up" data-aos-delay="100">
-                          <h4 class="title text-left">Atualização Contínua</h4>
+                          <h4 class="title text-left" >Atualização Contínua</h4>
                         
                       </div>
 
