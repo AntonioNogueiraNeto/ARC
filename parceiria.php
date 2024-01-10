@@ -1,5 +1,26 @@
       <!-- ======= About Section ======= -->
-      <section id="about" class="about section-bg">
+      <style>
+          .sectionabout2 {
+              background-image: url("assets/img/svg/about2.png");
+
+
+              background-repeat: no-repeat;
+              background-size: cover;
+          }
+
+          @media screen and (max-width: 768px) {
+              .sectionabout2 {
+                  background-image: url("assets/img/svg/mobileparceria.png");
+
+
+                  background-repeat: no-repeat;
+                  background-size: cover;
+              }
+          }
+      </style>
+
+
+      <section id="about" class="about sectionabout2">
           <div class="container">
               <div class="row">
 
@@ -10,35 +31,34 @@
                       <p data-aos="fade-up" class="text-left">
                           Na <strong>ARC Transportes e Logística </strong>, comprometemo-nos a oferecer uma parceria sólida e confiável para atender às suas necessidades de transporte. Diferenciamo-nos através de:
                       </p>
-                            <style>
-
-                                .parceiria{
-                                    margin-top: 20px;
-                                }
-                            </style>
+                      <style>
+                          .parceiria {
+                              margin-top: 20px;
+                          }
+                      </style>
                       <div class="parceiria" data-aos="fade-up">
                           <h4 class="title text-left">Equipe Dedicada</h4>
-                          
+
                       </div>
 
                       <div class="parceiria" data-aos="fade-up" data-aos-delay="100">
                           <h4 class="title text-left">Conformidade Fiscal</h4>
-                         
+
                       </div>
 
                       <div class="parceiria" data-aos="fade-up" data-aos-delay="100">
-                          <h4 class="title text-left" >Atualização Contínua</h4>
-                        
+                          <h4 class="title text-left">Atualização Contínua</h4>
+
                       </div>
 
                       <div class="parceiria" data-aos="fade-up" data-aos-delay="100">
                           <h4 class="title text-left">Compromisso com a Segurança</h4>
-                         
+
                       </div>
 
                       <div class="parceiria" data-aos="fade-up" data-aos-delay="100">
                           <h4 class="title text-left">Acompanhamento Integral</h4>
-                         
+
                       </div>
                   </div>
 
@@ -50,4 +70,13 @@
               </div>
           </div>
       </section>
+      <style>
+
+      </style>
+      <div class="divisao">
+
+
+      </div>
+
+
       <!-- End About Section -->

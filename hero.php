@@ -48,29 +48,6 @@
     }
 </style>
 
-<!-- 
-<section id="hero" class="d-flex flex-column justify-content-center align-items-center">
-    <div class="container " data-aos="fade-in">
-        <div class="d-flex align-items-center justify-content-end">
-            <div class="order-2">
-                <?php
-                $mobile = detectar_dispositivo();
-
-                if ($mobile != true) { // tela grande
-                    echo '<img src="assets/img/logo2.png" class="imagem-logo-hero" alt="">';
-                } else {
-                    echo '<img src="assets/img/logo3.png" class="imagem-logo-hero" alt="">';
-                }
-                ?>
-            </div> 
-        </div>
-    </div>
-</section> -->
-
-
-
-
-
 
 <main id="main">
     <section id="why-us" class="why-us">
@@ -89,7 +66,7 @@
                     </div>
                 </div>
                 <style>
-                    .more-btn{
+                    .more-btn {
                         border: 1px white solid;
                         color: #0D0B4A;
                         background-color: white;
@@ -106,7 +83,7 @@
                                 <div class="icon-box mt-4 mt-xl-0" style="background-color: #0D0B4A">
                                     <i class="bx bx-receipt titulobranco"></i>
                                     <h4 class="titulobranco">ATUAMOS EM TODO TERRITORIO NACIONAL</h4>
-                                   
+
                                     <!-- <div class="text-center">
                                         <a href="#about" class="more-btn">Saiba Mais </a>
                                     </div> -->
@@ -147,4 +124,3 @@
     <!-- End Why Us Section -->
 
 </main>
-<!-- End #main -->

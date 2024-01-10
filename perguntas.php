@@ -6,7 +6,7 @@
  }
 </style>
 
-<section id="faq" class="faq section-bg">
+<section id="faq" class="faq section-bg perguntasbg">
     <div class="container">
         <div class="section-title">
             <h2 data-aos="fade-up">F.A.Q</h2>

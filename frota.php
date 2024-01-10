@@ -56,11 +56,6 @@
         height: 600px;
     }
 
-    .frontabg {
-        background-image: url("assets/img/svg/frota.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
 
     @media only screen and (max-width: 600px) {
 
@@ -111,10 +106,10 @@
                     <div class="swiper-wrapper">
 
                         <?php
-                        $caminho_pasta = 'assets/img/frota';
+                        $caminho_pasta = 'assets/img/galeria';
                         $arquivos = scandir($caminho_pasta);
                         foreach ($arquivos as $arquivo) {
-                            $extensoes_permitidas = ['jpg', 'jpeg', 'png', 'gif'];
+                            $extensoes_permitidas = ['jpg', 'jpeg', 'png', 'gif', "jfif"];
                             $extensao = pathinfo($arquivo, PATHINFO_EXTENSION);
                             if (in_array(strtolower($extensao), $extensoes_permitidas)) {
                                 echo '<div class="swiper-slide swiperSlideFrota">';

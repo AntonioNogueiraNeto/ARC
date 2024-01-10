@@ -1,13 +1,22 @@
       <style>
+          .sectionabout {
+              background-image: url("assets/img/svg/about.png");
+              background-repeat: no-repeat;
+              background-size: cover;
+          }
 
-.sectionabout{
-    background-image: url("assets/img/svg/about.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+          @media screen and (max-width: 768px) {
+              .sectionabout {
+                  background-image: url("assets/img/svg/mobileabout.png");
+
+
+                  background-repeat: no-repeat;
+                  background-size: cover;
+              }
+          }
       </style>
-      
-      
+
+
       <!-- ======= About Section ======= -->
       <section id="about" class="about sectionabout">
           <div class="container">

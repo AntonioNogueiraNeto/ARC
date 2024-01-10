@@ -3,7 +3,7 @@
         <div class="section-title">
             <h2 data-aos="fade-up">Entre em Contato</h2>
             <p data-aos="fade-up">
-                Pronto para transformar suas demandas logísticas em soluções eficientes? br Entre em contato com a ARC Transporte e Logística e descubra como podemos impulsionar sua jornada com comprometimento, inovação e excelência.
+                Pronto para transformar suas demandas logísticas em soluções eficientes? <br> Entre em contato com a ARC Transporte e Logística e descubra como podemos impulsionar sua jornada com comprometimento, inovação e excelência.
             </p>
         </div>
         <style>
@@ -58,7 +58,10 @@
 
             <div class="mapa" data-aos="fade-up" data-aos-delay="200">
 
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.3690780468446!2d-44.073671924836354!3d-19.95097493896186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6bfdb9622f541%3A0xfc1fe1e3aad34bc3!2sR.%20Toyota%2C%20750%20-%20Dom%20I.%20Jardim%20Piemonte%20%2F%20Sul%2C%20Betim%20-%20MG%2C%2032689-314!5e0!3m2!1sen!2sbr!4v1702073336945!5m2!1sen!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+               
+
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3751.37761656016!2d-44.11915272402304!3d-19.908485937640496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6eaea492894e5%3A0x1ec6c553e13bf3da!2sR.%20Oitenta%20e%20Cinco%2C%20775%20-%20Tropical%2C%20Contagem%20-%20MG%2C%2032065-458!5e0!3m2!1sen!2sbr!4v1704910568482!5m2!1sen!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
 
