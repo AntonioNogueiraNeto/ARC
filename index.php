@@ -8,7 +8,7 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
   <!-- Título e meta tags para descrição e palavras-chave -->
-  <title>ARC transportes e logística</title>
+  <title>ARC Transporte e Logística</title>
   <meta content="" name="description" />
   <meta content="" name="keywords" />
 
@@ -82,15 +82,15 @@
 
 
   <?php
-  include("whatsapp.php");
   include("navbar.php");
   include("validatela.php");
   include("header.php");
-  include("hero.php");
+  include("whatsapp.php");
   include("about.php");
   include("cta.php");
   include("services.php");
-  include("case.php");
+  include("hero.php");
+  // include("case.php");
   include("clientes.php");
   include("frota.php");
   include("parceiria.php");
@@ -108,7 +108,6 @@
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/js/main.js"></script>
   <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 

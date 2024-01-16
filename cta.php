@@ -32,7 +32,7 @@
 
             <div class="subtexto-case">
                 <p>
-                    Mais de <strong> 450 embarques</strong> e mais de <strong>14.000 toneladas</strong> de estruturas metálicas transportados em <strong> 2023 </strong>com excelência,segurança e êxito
+                    Mais de <strong> 450 embarques</strong> e mais de <strong>14.000 toneladas</strong> de estruturas metálicas transportados em <strong> 2023 </strong>com excelência, segurança e êxito.
                 </p>
 
             </div>

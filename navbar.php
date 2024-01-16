@@ -1,26 +1,18 @@
 <header id="header" class="d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
         <style>
-            .img-fluid-logo {
-                max-width: 100%;
-                height: auto;
-                width: 170px;
-            }
-
-            .cordaempresa{
+            .cordaempresa {
                 color: #0d0b4a !important;
             }
         </style>
         <div class="logo">
 
-            <!-- <h1><a href="index.html">Flexor</a></h1> -->
-            <!-- Uncomment below if you prefer to use an image logo -->
-            <a href="index.php"><img src="assets/img/logo4.png" alt="" class="img-fluid-logo"></a>
+            <a href="index.php"><img src="assets/img/logo_footer.png" alt="" class="img-fluid-logo"></a>
         </div>
 
         <nav id="navbar" class="navbar">
             <ul class="cordaempresa">
-                <li><a class="nav-link scrollto active " href="#hero">Home</a></li>
+                <li><a class="nav-link scrollto active " href="#heroo">Home</a></li>
                 <li><a class="nav-link scrollto" href="#about">Sobre</a></li>
                 <li><a class="nav-link scrollto" href="#services">Serviços</a></li>
                 <li><a class="nav-link scrollto " href="#portfolio">Frota</a></li>

@@ -122,11 +122,25 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  height: 100px;
+  height: 70px;
+  padding: 20px;
   transition: all 0.5s;
   z-index: 997;
   background: #fff;
+  -webkit-box-shadow: 0px 8px 12px 0px rgba(0, 0, 0, 0.57);
+  box-shadow: 0px 8px 12px 0px rgba(0, 0, 0, 0.57);
 }
+
+@media screen and (max-width: 768px) {
+  .logo {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
 
 #header.header-fixed {
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
@@ -147,9 +161,8 @@ h6 {
 }
 
 #header .logo img {
-  padding: 0;
-  margin: 50px;
-  max-height: 90px;
+  padding: 10px;
+  width: 50%;
 }
 
 .scrolled-offset {
@@ -600,7 +613,8 @@ section {
   padding: 0 0 30px 0;
   position: relative;
   z-index: 3;
-  margin-top: 70vh;
+  display: flex;
+  justify-content: space-between;
 }
 
 .why-us .content {
@@ -619,24 +633,6 @@ section {
 
 .why-us .content p {
   margin-bottom: 30px;
-}
-
-.why-us .content .more-btn {
-  display: inline-block;
-  background: rgba(255, 255, 255, 0.2);
-  padding: 6px 30px 8px 30px;
-  color: #fff;
-  border-radius: 50px;
-  transition: all ease-in-out 0.4s;
-}
-
-.why-us .content .more-btn i {
-  font-size: 14px;
-}
-
-.why-us .content .more-btn:hover {
-  color: #0d0b4a;
-  background: #fff;
 }
 
 .why-us .icon-boxes .icon-box {
@@ -1664,6 +1660,8 @@ section {
 
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;
+  display: flex;
+  align-items: center;
 }
 
 #footer .footer-top .footer-contact h4 {

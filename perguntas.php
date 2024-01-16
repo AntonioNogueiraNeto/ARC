@@ -1,9 +1,7 @@
 <!-- ======= F.A.Q Section ======= -->
 
 <style>
- .perguntasbg{
-
- }
+    .perguntasbg {}
 </style>
 
 <section id="faq" class="faq section-bg perguntasbg">
@@ -60,7 +58,7 @@
                         <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                     <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
                         <p>
-                            Transportamos uma ampla gama de cargas, incluindo cargas gerais, projetos especiais, equipamentos industriais, estruturas metálicas, correias transportadoras, transformadores, reatores, geradores, usinas fracionadas, containers, entre outros.
+                            Transportamos uma ampla gama de cargas, incluindo cargas gerais, projetos especiais, equipamentos industriais, estruturas metálicas, correias transportadoras, transformadores, reatores, geradores,containers, entre outros.
                         </p>
                     </div>
                 </li>

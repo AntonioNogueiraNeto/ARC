@@ -20,7 +20,8 @@
         <div class="section-title" data-aos="fade-up">
             <h2>Serviços </h2>
             <p>
-                Conectamos destinos, ultrapassamos desafios e entregamos excelência: na ARC Transporte e Logística, cada serviço é mais do que uma entrega, é a garantia de eficiência, segurança e pontualidade, moldados pela expertise que nos define
+                Conectamos destinos, ultrapassamos desafios e entregamos excelência!
+                Na ARC Transporte e Logística cada serviço é mais do que uma entrega. É a garantia da eficiência, segurança e pontualidade, moldadas pela expertise que nos define.
             </p>
         </div>
 
@@ -79,7 +80,7 @@
                     </p>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <!-- <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
                 <div class="icon-box">
                     <div class="icon"><i class="bi bi-calendar4-week"></i></div>
                     <h4 class="title"><a href="">Usinas em Geral Fracionados: </a></h4>
@@ -87,7 +88,7 @@
                         Soluções adaptadas para o transporte fracionado de componentes de usinas.
                     </p>
                 </div>
-            </div>
+            </div> -->
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
                 <div class="icon-box">
                     <div class="icon"><i class="bi bi-calendar4-week"></i></div>

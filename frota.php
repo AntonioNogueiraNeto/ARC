@@ -95,22 +95,26 @@
 
 <body>
     <div class="servicesbg">
-        <div class="container " id="portfolio">
+        <div class="container" id="portfolio">
             <div class="section-title" data-aos="fade-up">
                 <h2>Frotas</h2>
-
-
             </div>
             <div class="fronta-box">
                 <div class="swiper mySwiper swiperFrota">
                     <div class="swiper-wrapper">
-
                         <?php
                         $caminho_pasta = 'assets/img/galeria';
                         $arquivos = scandir($caminho_pasta);
+                        // Remova . e ..
+                        $arquivos = array_diff($arquivos, array('..', '.'));
+
+                        // Ordenar os arquivos
+                        natsort($arquivos);
+
                         foreach ($arquivos as $arquivo) {
-                            $extensoes_permitidas = ['jpg', 'jpeg', 'png', 'gif', "jfif"];
+                            $extensoes_permitidas = ['jpg', 'jpeg', 'png', 'gif', 'jfif'];
                             $extensao = pathinfo($arquivo, PATHINFO_EXTENSION);
+
                             if (in_array(strtolower($extensao), $extensoes_permitidas)) {
                                 echo '<div class="swiper-slide swiperSlideFrota">';
                                 echo '<img class="frota-imagem-slide" src="' . $caminho_pasta . '/' . $arquivo . '" />';
@@ -119,34 +123,43 @@
                         }
                         ?>
                     </div>
-                    <div class="swiper-pagination"></div>
-
+                    <!-- Adiciona botões de navegação -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
                 </div>
             </div>
         </div>
     </div>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
-        var swiper = new Swiper(".mySwiper", {
-            slidesPerView: "auto",
-            spaceBetween: 30,
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-                dynamicBullets: true,
+        document.addEventListener('DOMContentLoaded', function() {
+            var swiper = new Swiper(".mySwiper", {
+                slidesPerView: "auto",
+                spaceBetween: 30,
+          
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+                loop: true,
+                autoplay: {
+                    delay: 0,
+                    disableOnInteraction: false,
+                },
+                centeredSlides: true,
+                speed: 3000,
+                effect: "slide",
+            });
 
-            },
-            loop: true,
-            autoplay: {
-                delay: 0,
-                disableOnInteraction: false,
-            },
-            centeredSlides: true,
-            speed: 4000,
-            effect: "slide",
+            // Adiciona ouvintes de eventos para as setas de navegação
+            document.querySelector('.swiper-button-next').addEventListener('click', function() {
+                swiper.autoplay.stop();
+            });
 
+            document.querySelector('.swiper-button-prev').addEventListener('click', function() {
+                swiper.autoplay.stop();
+            });
         });
     </script>
 </body>

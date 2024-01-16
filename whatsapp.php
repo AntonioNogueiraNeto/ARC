@@ -4,15 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>Claudia Faria Imobiliária</title>
 
     <!-- Styles -->
     <link rel="stylesheet" href="whatsapp.css">
     <style>
         .btnZap {
             position: fixed;
-            left: 20px;
-            bottom: 20px;
+            left: 0px;
+            bottom: 0px;
             z-index: 999999999;
             cursor: pointer;
         }
@@ -59,6 +58,8 @@
     </div>
 
     <script>
+
+        
         var zap_telefone = "+5531994491565";
         var zap_mensagem = 'Olá!!';
         var zap_exibirPulsar = true;

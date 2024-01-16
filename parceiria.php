@@ -10,7 +10,7 @@
 
           @media screen and (max-width: 768px) {
               .sectionabout2 {
-                  background-image: url("assets/img/svg/mobileparceria.png");
+                  background-image: url("assets/img/svg/mobileparceria2.png");
 
 
                   background-repeat: no-repeat;

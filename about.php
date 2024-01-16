@@ -7,6 +7,7 @@
 
           @media screen and (max-width: 768px) {
               .sectionabout {
+                margin-top: -40px;
                   background-image: url("assets/img/svg/mobileabout.png");
 
 
@@ -28,9 +29,9 @@
                   <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
                       <h4 data-aos="fade-up">SOBRE NÓS</h4>
                       <h3 data-aos="fade-up">
-                          O transporte que você precisa, com a eficiência que você procura </h3>
+                          A ARC Transporte e Logística </h3>
                       <p data-aos="fade-up">
-                          A <strong> ARC Transporte e Logística </strong> é a escolha
+                          é a escolha
                           confiável para soluções de transporte de cargas rodoviárias em
                           todo o Brasil. Com um compromisso inabalável com a agilidade e
                           segurança, nossa equipe altamente qualificada gerencia cada

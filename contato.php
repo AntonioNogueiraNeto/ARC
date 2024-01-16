@@ -58,16 +58,16 @@
 
             <div class="mapa" data-aos="fade-up" data-aos-delay="200">
 
-               
+
 
 
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3751.37761656016!2d-44.11915272402304!3d-19.908485937640496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6eaea492894e5%3A0x1ec6c553e13bf3da!2sR.%20Oitenta%20e%20Cinco%2C%20775%20-%20Tropical%2C%20Contagem%20-%20MG%2C%2032065-458!5e0!3m2!1sen!2sbr!4v1704910568482!5m2!1sen!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
 
-        <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="300">
+        <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="300" id="formulario">
             <div class="col-xl-9 col-lg-12 mt-4">
-                <form action="enviaremailcontato.php" method="post" role="form" class="php-email-form">
+                <form action="enviaremail.php" method="post" role="form" class="php-email-form">
                     <div class="row">
                         <div class="col-md-6 form-group">
                             <input type="text" name="name" class="form-control" id="name" placeholder="Nome" required />
@@ -90,23 +90,28 @@
                     <div class="form-group mt-3">
                         <textarea class="form-control" name="message" rows="5" placeholder="Mensagem" required></textarea>
                     </div>
-                    <div class="my-3">
-                        <div class="loading">Loading</div>
-                        <div class="error-message"></div>
-                        <div class="sent-message">
-                            Seu email foi enviado.
-                        </div>
-                    </div>
+
                     <div class="text-center">
                         <button type="submit">Enviar</button>
 
+                        <style>
+                            .mensagemdesucesso {
+                                color: #fff;
+                                text-align: center;
+                                align-items: center;
+                                background: #059652;
+                                padding: 15px;
+                                margin-bottom: 24px;
+                                font-weight: 600;
+                                border-radius: 10px;
+                            }
+                        </style>
                         <?php
                         if (isset($_GET['msg'])) {
                             $mensagem_confirmacao_footer = $_GET['msg'];
-                            echo "<p class='text-success' style='margin-top:20px;'>" . $mensagem_confirmacao_footer . "</p>";
+                            echo "<p class='mensagemdesucesso' style='margin-top:20px;'>" . $mensagem_confirmacao_footer . "</p>";
                         }
                         ?>
-
                     </div>
 
                 </form>
